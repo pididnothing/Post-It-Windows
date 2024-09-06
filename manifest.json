@@ -1,0 +1,26 @@
+{
+    "name": "Post-It Windows",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "assets/post-it-window128.png"
+        
+    },"icons": {
+    "16": "assets/post-it-window16.png",
+    "64": "assets/post-it-window64.png",
+    "128": "assets/post-it-window128.png"
+    
+    },"background": {
+    "service_worker": "background.js"
+    },
+    "host_permissions": [
+    "<all_urls>"
+    ]
+
+}
