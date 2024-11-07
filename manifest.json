@@ -1,6 +1,6 @@
 {
     "name": "Post-It Windows",
-    "version": "1.0",
+    "version": "0.0.0.1",
     "manifest_version": 3,
     "permissions": [
         "tabs",
@@ -16,8 +16,6 @@
     "64": "assets/post-it-window64.png",
     "128": "assets/post-it-window128.png"
     
-    },"background": {
-    "service_worker": "background.js"
     },
     "host_permissions": [
     "<all_urls>"

@@ -7,13 +7,15 @@
   <style>
     body { font-family: Arial, sans-serif; height: 70px; width: 150px; }
     input { padding: 5px; width: 80%; }
-    button { padding: 5px; margin-top: 10px; width: 85%; }
+    button { padding: 5px; margin-top: 10px; width: 85%; margin-bottom: 10px; }
   </style>
 </head>
 <body>
   <input type="text" id="urlInput" placeholder="Enter URL here">
   <button id="saveUrl">Open URL</button>
-  <p id="status"></p>
+  <p id="status" style="color: red;"></p>
+  <button id="postIt">Sticky Note</button>
+  <p></p>
   <script src="popup.js"></script>
 </body>
 </html>
